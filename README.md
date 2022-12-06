@@ -1,12 +1,12 @@
 # Z
 A simple library for O(n) pattern matching and search.
 
-# func Match
+## func Match
 `Match(pat, str string) bool`   
 If **pat** exists in **str**, **Match** returns true at the first occurance.
 
 
-# func FirstIndex
+## func FirstIndex
 `FirstIndex(pat, str string) int`   
 If **pat** exists in **str**, **FirstIndex** returns the index of the start of the pattern at the first occurance.     
 
